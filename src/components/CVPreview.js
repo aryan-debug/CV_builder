@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import AchievementView from "./CVPreviewComponents/AchievementView";
 import PersonalInfoView from "./CVPreviewComponents/PeronalInfoView";
 import ProjectsView from "./CVPreviewComponents/ProjectsView";
