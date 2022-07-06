@@ -1,0 +1,52 @@
+@use "./variables.scss";
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+#project-title{
+    display: flex;
+    align-items: baseline;
+    gap:20px;
+    color:variables.$blue-color;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.75em;
+
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    color: variables.$blue-color;
+    > div > h2{
+        font-size:1.8em;
+        position: relative;
+    }
+
+    > div > a{
+        font-family: 'Jost', sans-serif;
+        color: variables.$blue-color;
+        text-decoration: none;
+    }
+    > ul > li{
+        font-weight: bold;
+    }
+
+}
+
+.rounded-rectangle{
+    display: block;
+    width:20px;
+    height:20px;
+    background-color: variables.$light-accent-green;
+    border-radius: 5px;
+    transform:rotate(45deg)
+}
+.project-heading{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+@use "./variables.scss";
+
+#skills-view-box{
+    padding:20px;   
+    width:250px;
+    background-color: variables.$form-bg-color;
+    border-radius: variables.$box-border-radius;
+}
+
+#skills-heading{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    gap:20px;
+
+    > span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        font-size: 1.4em;
+        width:40px;
+        height:40px;
+        color:variables.$light-accent-green;
+        background-color: white;
+    }
+}
+
+#skill-view{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    padding-top:20px;
+    border-radius: variables.$box-border-radius;
+}

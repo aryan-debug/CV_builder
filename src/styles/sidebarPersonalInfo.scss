@@ -1,0 +1,38 @@
+@use "./variables.scss";
+
+#sidebar-personal-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    width:250px;
+    height:300px;
+    background-color: variables.$form-bg-color;
+    border-radius: variables.$box-border-radius;
+
+    > div{
+        display: flex;
+        align-items: center;
+        gap:10px;
+
+        & > p{
+            font-size: 13px;
+            font-family: 'Rubik', sans-serif;
+            color: white;
+        }
+    }
+}
+
+.sidebar-icon{
+    color:variables.$light-accent-green;
+    font-size:18px
+}
+.icon-bg{
+    width:30px;
+    height:30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}

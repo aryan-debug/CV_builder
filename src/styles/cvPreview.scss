@@ -1,0 +1,50 @@
+@use "./variables.scss";
+@use "./sidebarPersonalInfo.scss";
+@use "./skillView.scss";
+
+#cvpreview{
+    display: flex;
+    background-color: white;
+    width:750px;  
+    padding:50px;
+    gap:50px;
+}
+
+#personal-info{
+    display: flex;
+    flex-direction: column;
+    > p{
+        margin-top: 20px;
+        width:350px;
+        word-wrap: break-word;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+#name-heading{
+    font-family: 'Bebas Neue', cursive;
+    color: variables.$blue-color;
+    font-size: 50px;
+}
+#title{
+    color: variables.$light-accent-green;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.skill-box{
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    width:max-content;
+    height:30px;
+    background-color: variables.$light-accent-green;
+    color: variables.$form-bg-color;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+}

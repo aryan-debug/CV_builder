@@ -1,0 +1,14 @@
+@use "./cvPreview.scss";
+@use "./main.scss";
+@use "./cvForm.scss";
+@use "./skillsForm.scss";
+@use "./projectForm.scss";
+@use "./projectView.scss";
+@use "./achievementForm.scss";
+@use "./achievementsView.scss";
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
