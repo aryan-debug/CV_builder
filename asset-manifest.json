@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aryan-debug/CV_builder.git/static/css/main.088ffc33.css",
+    "main.js": "/aryan-debug/CV_builder.git/static/js/main.20f90e83.js",
+    "index.html": "/aryan-debug/CV_builder.git/index.html",
+    "main.088ffc33.css.map": "/aryan-debug/CV_builder.git/static/css/main.088ffc33.css.map",
+    "main.20f90e83.js.map": "/aryan-debug/CV_builder.git/static/js/main.20f90e83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.088ffc33.css",
+    "static/js/main.20f90e83.js"
+  ]
+}
